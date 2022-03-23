@@ -25,14 +25,22 @@ public class Main {
         System.out.println("suma totala este: 1"  );
 
 
-        System.out.println("20 + -3*5 / 8 ");
+        System.out.println("20 + -3*5 : 8 suma totala este: 21");
 
-    }    float a = 20;
-            float b = -3*5;
-            float c = 8;
+        float = 20;
+        float = 3;
+        float = 5;
+        float = 8;
+
+        System.out.println("5 + 15 / 3 * 2 - 8 % 3 ");
 
 
 
+
+
+
+
+    }
 
 
 
