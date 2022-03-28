@@ -1,23 +1,30 @@
+import java.util.Scanner;
+
 public class Main {
 
-       public static void main(String[] args) {
+    private static int Clesius;
 
-          double result = sum(2, 3);
-          System.out.println(reuslt * 2);
-          System.out.println("Rezultatul este:" + sum(3, 5));
+    public static void main(String[] args) {
 
-        }
+        double result = sum(2, 3);
+        System.out.println(reuslt * 2);
+        System.out.println("Rezultatul este:" + sum(3, 5));
 
-
-
-
-
-        public static void sum(int firstNumber, double secondNumber) {
-            double x = firstNumber / secondNumber;
-            return x;
+    }
 
 
-        }
+    public static void sum(int firstNumber, double secondNumber) {
+        double x = firstNumber / secondNumber;
+        return x;
+
+
+    }
+
+
+
+
+
+
 
 
 
