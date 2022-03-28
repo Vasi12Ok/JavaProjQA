@@ -1,13 +1,11 @@
-public class Class7 {
-
-    public class Fahrenh_to_Celsisu {
+class class7{
 
 
+        public static void main(String[] args) {
+          double fahrenheit = -32, celsius = 5/9;
+          celsius = (fahrenheit -32) / 5/9;
 
-
-    }
-
-
+          System.out.println("value of temperature in celsius: " + celsius);
 
 
 
@@ -19,10 +17,12 @@ public class Class7 {
 
 
 
+      }
 
 
 
 
 
+}
 
 
