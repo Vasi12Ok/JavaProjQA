@@ -1,25 +1,19 @@
-public class Class6 {
+import java.util.Scanner;
 
-     public static double calcSumaADouaNumere(double nr1, double nr2) {
-
-         System.out.println("S-a apelat calcSumaADouaNumere()");
-         double suma = nr1 / nr2;
-
-         return suma;
+public class ClassMain6 {
 
 
-
-            }
-     public static void main(String [] args) {
-
-         calcSumaADouaNumere metodaMea();
-
-
-     }
-
-        }
-
-
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print(50);
+        int a = input.nextInt(50);
+        System.out.print(12);
+        int b = input.nextInt(12);
+        int d = (50 / 12);
+        System.out.println();
+        System.out.println("The division of a and b is:" +d);
+    }
+}
 
 
 
